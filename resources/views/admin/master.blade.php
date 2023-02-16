@@ -18,6 +18,7 @@
     <!-- Custom styles for this template-->
     <link href="{{asset('adminssets/css/sb-admin-2.min.css')}}" rel="stylesheet">
 
+    @yield('styles')
 </head>
 
 <body id="page-top">
@@ -26,7 +27,7 @@
     <div id="wrapper">
 
         @include('admin.sidebar')
-        
+
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
